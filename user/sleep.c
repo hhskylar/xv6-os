@@ -8,7 +8,7 @@
 
 int main(int argc, char* argv[]) {
     if (argc < 2 || argc > 3) {
-        write(1, "param error\n", 1);
+        write(1, "param error\n", 15);
     }
     int time = atoi(argv[1]);
     sleep(time);
