@@ -4,7 +4,7 @@
 # grade script (e.g., grade-lab-util).
 
 -include conf/lab.mk
-
+OUT_DIR = out
 K=kernel
 U=user
 
@@ -195,6 +195,8 @@ UPROGS=\
 	$U/_wc\
 	$U/_zombie\
 	$U/_sleep\
+	$U/_pingpong\
+	$U/_primes\
 
 
 
