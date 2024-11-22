@@ -26,3 +26,4 @@ barrier
 *.dSYM
 *.pcap
 .idea
+*.swp
